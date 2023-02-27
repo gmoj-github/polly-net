@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polly.net", "Polly.net\Polly.net.csproj", "{F6232210-FC16-4B44-BB83-AAC9C51B0413}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LearningTests", "LearningTests", "{9926A511-47BE-4D29-8EE7-61708EB9C21D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyNetTests", "PollyNetTests\PollyNetTests.csproj", "{38B1BFAD-262A-4C62-A4AE-1990D581B514}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{F6232210-FC16-4B44-BB83-AAC9C51B0413}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6232210-FC16-4B44-BB83-AAC9C51B0413}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6232210-FC16-4B44-BB83-AAC9C51B0413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B1BFAD-262A-4C62-A4AE-1990D581B514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B1BFAD-262A-4C62-A4AE-1990D581B514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B1BFAD-262A-4C62-A4AE-1990D581B514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B1BFAD-262A-4C62-A4AE-1990D581B514}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{38B1BFAD-262A-4C62-A4AE-1990D581B514} = {9926A511-47BE-4D29-8EE7-61708EB9C21D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44B35140-16E6-486F-9916-5A0D7D950E2B}
